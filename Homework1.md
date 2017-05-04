@@ -1,12 +1,12 @@
-## CSE221 Operating System, Homework 1
+# CSE221 Operating System, Homework 1
 
 * Student Name: Chenyu Huang
 * PID: A53202846
 * Email: [chh217@eng.ucsd.edu](chh217@eng.ucsd.edu)
 
-### Question 1:
+## Question 1:
 
-#### Hydra
+### Hydra
 
 ##### Protection Domain
 
@@ -26,23 +26,23 @@ Hydra represents rights in terms of 'capability'. A capability consists of a ref
 
 
 
-#### UNIX
+### UNIX
 
 ##### Protection Domain
 
 
 
-#### Multics
+### Multics
 
 
 
-#### Pilot
+### Pilot
 
 ##### Protection Domain
 
 
 
-### Question 2
+## Question 2
 
 Example
 
@@ -60,8 +60,6 @@ Today
 
 Today, specialized hardware are still used to facilitate some system implementations. For instance, the implementation of virtual memory almost always require some forms of hardware support, typically in the form of a memory management unit in the CPU (which translates virtual addresses to physical addresses). 
 
-### Question 3
+## Question 3
 
-First of all, being a multi-user timesharing systems like UNIX doesn't neccessarily means that it is not suitable for personal computers. However, a single user system like Pilot will render utterly useless for a multi-user environment. 
-
-Besides
+First of all, being a multi-user timesharing systems like UNIX doesn't neccessarily means that it is not suitable for personal computers. However, a single user system like Pilot will render utterly useless for a multi-user environment. Besides, UNIX is designed to be portable, it is not tightly coupled with any hardware, meaning that it can run on almost any hardware without major overhaul. Additionally, modern systems that based on 'old warhorse' systems like UNIX have evolved a with the addition of new features such as networking which makes them suitable for modern use. 
