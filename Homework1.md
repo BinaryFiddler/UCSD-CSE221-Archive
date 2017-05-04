@@ -27,19 +27,21 @@ Hydra represents rights in terms of 'capability'. A capability consists of a ref
 
 
 ### UNIX
-
 ##### Protection Domain
-
+UNIX associates domains with users. 
 
 
 ### Multics
-
+##### Protection Domain
+Multics uses a system of rings, each corresponding to a different protection domain. 
 
 
 ### Pilot
-
 ##### Protection Domain
+Being a single user system, Pilot only has one protection domain. 
 
+##### Rights representation
+Rights in Pilot are represented by interfaces
 
 
 ## Question 2
