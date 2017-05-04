@@ -33,8 +33,12 @@ UNIX associates domains with users.
 
 ### Multics
 ##### Protection Domain
-Multics uses a system of rings, each corresponding to a different protection domain. 
-
+A protection domain in Multics is a protected subsystems, which is a system of rings that are numbered from 0 to 7, with the outer rings having a subset of privileges of the inner ring. 
+##### Mechanism for Crossing Protection Domains
+In Multics, crossing protection domains is done through the so called gates, which are entry points into protection subsystems.
+##### Rights representation
+There are two levels of protection in Multics. Access control list is used for rights representation for stored information
+Rights in Multics is represented through descriptors. 
 
 ### Pilot
 ##### Protection Domain
