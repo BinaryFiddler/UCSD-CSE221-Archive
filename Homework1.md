@@ -2,7 +2,7 @@
 
 * Student Name: Chenyu Huang
 * PID: A53202846
-* Email: [chh217@eng.ucsd.edu](chh217@eng.ucsd.edu)
+* Email: [chh217@eng.ucsd.edu](mailto:chh217@eng.ucsd.edu)
 
 ## Question 1:
 
