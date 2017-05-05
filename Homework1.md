@@ -11,7 +11,7 @@
 #### Protection Domain
 A protection domain in Hydra is the "Local name space" (LNS). An LNS represents the current set of objects and rights to which a process has access, and those objects and rights change when a process moves from one LNS to another. 
 #### Crossing protection domain borders
-
+Procedures in Hydra come with their own LNS, by using the so called CALL and RETURN mechanism and supplying the procedure parameters, a procedure can cross the LNS borders. When a CALL is 
 #### Rights representation
 Hydra represents rights in terms of 'capability'. A capability consists of a reference to an object together with a collection of access rights to that object. In Hydra, capabilities are only manipulated by the kernel. 
 #### Right Amplification
@@ -24,6 +24,8 @@ Hydra represents rights in terms of 'capability'. A capability consists of a ref
 #### Protection Domain
 In UNIX, each user is associated with a protection domain. Processes run in the protection domain are associated with the user that starts the processes. 
 #### Mechanism for Crossing Protection Domains
+#### Rights Representation
+
 #### Rights Amplification
 Rights amplication is done by SETUID in UNIX, which effectively changes the user id of the process to the owner of the executable file.
 
@@ -38,6 +40,7 @@ There are two levels of protection in Multics. Access control list is used for r
 Rights in Multics is represented through descriptors. 
 #### Rights Amplification
 Rights amplification in Multics is achieved by calling to gates with a larger number. 
+#### Protection domain border crossing decision process
 
 ### Pilot
 #### Protection Domain
